@@ -34,8 +34,11 @@
     
 }
 
-a,img{
+a,img,button{
     display: block;
+}
+
+a{
     text-decoration: none;
 }
 
@@ -49,7 +52,7 @@ img{
     max-width: 400px;
 }
 
-/* .sr-only {
+.sr-only {
     position: absolute;
     width: .0625rem;
     height: .0625rem;
@@ -59,4 +62,4 @@ img{
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border: 0;
-} */
+}
